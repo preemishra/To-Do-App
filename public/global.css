@@ -1,0 +1,39 @@
+h1{
+	color:rgb(21, 21, 114);
+	text-align: center;
+	font-weight: 900;
+	font-size: 40px;
+}
+input.larger {
+	transform: scale(2);
+}
+div.task{
+	font-size: larger;
+	font-weight: 500;
+}
+.parent {
+	margin: 1rem;
+	text-align: center;
+}
+.child {
+	display: inline-block;
+	padding: 1rem 1rem;
+	vertical-align: middle;
+}
+.button{
+	color:rgb(6, 6, 135);
+	padding: 6px 20px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 5px;
+	background-color: white;
+	border-color: aliceblue;
+}
+.checked {
+	text-decoration: line-through;
+}
+.removeDiv{
+	cursor: pointer;
+}
